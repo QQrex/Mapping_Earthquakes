@@ -18,7 +18,7 @@ let streets = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{
 streets.addTo(map);
 
 // Accessing the Toronto airline routes GeoJSON URL.
-let torontoData = "https://raw.githubusercontent.com/QQrex/Mapping_Earthquakes/main/torontoRoutes.json";
+let torontoData = "https://github.com/QQrex/Mapping_Earthquakes/blob/main/Json_data/torontoRoutes.json";
 
 // Grabbing our GeoJSON data.
 d3.json(torontoData).then(function(data) {
